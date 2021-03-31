@@ -82,7 +82,6 @@ button_a = ttk.Button(master=win, text="+", command=lambda:press("+"))
 button_a.grid(row=4, column=3)
 
 button_e = ttk.Button(master=win, text="=", command=lambda:equal())
-#nsew: north-south-east-west
 button_e.grid(row=5, columnspan=4, sticky="nsew")
 
 win.mainloop()
