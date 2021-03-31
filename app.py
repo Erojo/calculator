@@ -2,35 +2,8 @@ import tkinter as tk
 import tkinter.ttk as ttk
 from typing import final
 
-# la diferencia entre tk y ttk es que parece que los controles de ttk son más redondeados
-
-def hola():
-    return "Hello World!"
-
-#print(dir(tk))
-# help(tk.Tk)
-
 win = tk.Tk()
-#print(dir(win))
-
 win.title("Calculator")
-
-# 1
-#win.configure(width=300, height=300, background='gray')
-
-# 2
-# +0+0 es para posicionarlo. 0,0=x,y es la esquina superior izquierda
-#win.geometry("300x300+200+200")
-
-""" # Create controls
-label = ttk.Label(master=win, text="This is a text")
-button_add = ttk.Button(master=win, text="+")
-button_sustract = ttk.Button(master=win, text="-")
-
-# El orden de los pack es importante
-label.pack()
-button_add.pack()
-button_sustract.pack() """
 
 expr = ""
 text = tk.StringVar()
